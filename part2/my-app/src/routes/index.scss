@@ -1,0 +1,14 @@
+.home {
+	h1 {
+		text-align: center;
+		font-size: 42px;
+		a {
+			text-decoration: none;
+			color: black;
+		}
+		a:hover {
+			color: rgb(41, 131, 200);
+			transition: color 300ms;
+		}
+	}
+}

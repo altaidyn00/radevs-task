@@ -1,0 +1,58 @@
+.form {
+	width: 600px;
+	margin: auto;
+	.custom-field {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 1rem;
+		label {
+			font-size: 22px;
+			margin-bottom: 8px;
+		}
+		input {
+			padding: 8px;
+			font-size: 18px;
+			border-radius: 12px;
+			border: 1px solid rgb(204, 193, 193);
+		}
+		.input--invalid {
+			border: 1px solid rgb(222, 86, 86);
+		}
+
+		.error-message {
+			color: rgb(222, 86, 86);
+			font-size: 14px;
+			margin-top: 4px;
+			margin-bottom: 0px;
+		}
+	}
+	.buttons-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 1rem;
+		button {
+			width: 200px;
+			padding: 8px;
+			border-radius: 8px;
+			color: white;
+			background-color: rgb(41, 131, 200);
+			border: 1px solid rgb(41, 131, 200);
+			&:hover {
+				background-color: rgb(15, 97, 160);
+				transition: background-color 300ms;
+			}
+		}
+		button:first-child {
+			margin-right: 1rem;
+		}
+		button:last-child {
+			margin-left: 1rem;
+		}
+	}
+	.progress {
+		&-bar {
+			background-color: rgb(41, 131, 200);
+		}
+	}
+}
